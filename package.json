@@ -1,17 +1,9 @@
 {
-  "name": "Mongo-NYT-Scrape",
+  "name": "mongo-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web scraping app that uses mongo for storage",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GrissomErick/NYT-Scrape.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Erick Grissom",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GrissomErick/NYT-Scrape/issues"
@@ -20,9 +12,12 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.0.14",
-    "request": "^2.85.0"
+    "mongoose": "^5.0.0-rc2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "^2.4.5"
   }
 }
