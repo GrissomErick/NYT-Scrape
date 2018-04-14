@@ -1,7 +1,7 @@
 {
-  "name": "mongo-scraper",
+  "name": "nyt-scrape",
   "version": "1.0.0",
-  "description": "A web scraping app that uses mongo for storage",
+  "description": "A web scraping app that uses mongo persistent for storage",
   "main": "server.js",
   "author": "Erick Grissom",
   "license": "ISC",
