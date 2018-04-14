@@ -14,10 +14,10 @@ require("./routes/apiRoutes")(app);
 require("./routes/scrape")(app);
 
 const PORT = process.env.PORT || process.argv[2] || 3000;
-var MONGODB_URI = process.env.MONGOLAB_OLIVE_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 mongoose.Promise = Promise;
-mongoose.connect(MONGOLAB_OLIVE_URI, {
+mongoose.connect(MONGODB_URI, {
   useMongoClient: true
 });
 
