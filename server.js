@@ -14,10 +14,12 @@ require("./routes/apiRoutes")(app);
 require("./routes/scrape")(app);
 
 const PORT = process.env.PORT || process.argv[2] || 8080;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/scraperdb";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGODB_URI, {
+  useMongoClient: true
+});
 
 app.listen(PORT, () => {
   console.log(`Listening on http://localhost:${PORT}`);
