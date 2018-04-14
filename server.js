@@ -13,7 +13,7 @@ require("./routes/htmlRoutes")(app);
 require("./routes/apiRoutes")(app);
 require("./routes/scrape")(app);
 
-const PORT = process.env.PORT || process.argv[2] || 8080;
+const PORT = process.env.PORT || process.argv[2] || 3000;
 var MONGODB_URI = process.env.MONGOLAB_OLIVE_URI || "mongodb://localhost/mongoHeadlines";
 
 mongoose.Promise = Promise;
