@@ -1,3 +1,12 @@
+//==============================================================================
+// My goals for this Homework
+// 1. Get the app working 1st
+// 2. Lots of comenting
+// 3. Organize and streamline code
+// 4. Working brickwall and notepad frontend solutions
+//==============================================================================
+
+
 //dependencies
 const express = require('express');
 const mongoose = require('mongoose');
@@ -21,17 +30,17 @@ mongoose
   })
   .catch(err => console.log('There was an error with your connection:', err));
 
-//setting up favicon middleware
+//adding a favicon since I have time
 app.use(favicon(path.join(__dirname, 'public', 'assets/img/favicon.ico')))
 
-//setting up Morgan middleware
+//setting up Morgan
 app.use(logger('dev'));
 
-//setting up body parser middleware
+//setting up body parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-//setting up handlebars middleware
+//setting up handlebars
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
