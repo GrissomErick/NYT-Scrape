@@ -56,7 +56,7 @@ button:focus {
 	-webkit-transform: translate(-50%, 20%);
 	        transform: translate(-50%, 20%);
 	font-size: 7em;
-	margin: 0;
+	/***margin: 0;***/
 	padding: 0 20px;
 	font-family: 'Quicksand', sans-serif;
 	text-shadow: 0 0 20px #ff005b;
