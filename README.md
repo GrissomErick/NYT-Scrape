@@ -9,7 +9,7 @@ UNC Coding Boot Camp - NYT-Scrape - Assignment #14 (MongoDB, Mongoose, Cheerio, 
 
 **Bonus** - Frontend enhancements,  stretched brick face background, dark themed interface, neon font, yellow notepad interface for article notes.
 
-## Application Heroku Link
+## Heroku Link
 The link below will give you direct access to NYT-Scrape web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
 
 <!-- Heroku References: https://evening-ridge-94356.herokuapp.com/ | https://git.heroku.com/evening-ridge-94356.git -->
