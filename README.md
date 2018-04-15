@@ -5,9 +5,9 @@
 # NYT-Scrape
 UNC Coding Boot Camp - NYT-Scrape - Assignment #14 (MongoDB, Mongoose, Cheerio, Heroku)
 
-**Project Description** - The New York Times Scraper, (NYT-Scrape for short), is a web application that captures the headline, summary, and a consistent sized image of each article and provides the user with the ability "Save Article" retain his/her favorite articles using button located in the upper right hand corner of the interface. Additionally, users can navigate to the archived article(s) using the "View Saved Articles" button. Once in the archive or saved article section of the application, users can add notes to any saved article or permanently delete the article from the application. 
+**Project Description** - The New York Times Scraper, (NYT-Scrape for short), is a web application that captures the headline, article summary, and image from the current articles on nytimes.com. Once displayed, each article provides the user the option to save his/her favorite articles using a "Save Article" button located in the upper right hand corner of the interface. Additionally, users can navigate to the saved article(s) using the "View Saved Articles" button. Once in the saved article section of the application, users can add notes to any saved article or permanently delete the article from the application. 
 
-**Bonus** - as an added bonus I included a stretched brick face background, with a dark themed interface as well as the use of neon fonts and a yellow notepad like interface for the users to record article notes.
+**Bonus** - Frontend enhancements,  stretched brick face background, dark themed interface, neon font, yellow notepad interface for article notes.
 
 ## Application Heroku Link
 The link below will give you direct access to NYT-Scrape web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
