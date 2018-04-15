@@ -26,7 +26,10 @@ To use NYT-Scrape web application application from your local environment, you m
 | 03 | Install all required NPM packages | npm i |
 | 04 | Change directory to the cloned repo folder | cd NYT-Scrape |
 | 05 | Start the application server | node server.js |
-| 06 | Navigate web browser to home page  | (Web Browser Address Bar)  localhost:3000 |
+
+| Step | Description | Browser Route |
+| :--: | ------- | ---- |
+| 01 | Navigate web browser to the application home page | localhost:3000 |
 
 ## NPM Packages
 NYT-Scrape uses the following NPM packages:
