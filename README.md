@@ -19,24 +19,15 @@ The link below will give you direct access to NYT-Scrape web application using y
 ## Local Environment Setup
 To use NYT-Scrape web application application from your local environment, you must accomplish the following steps below:
 
-**Step 1 - Ensure Node.JS, NPM Packages, and MongoDB are installed on your machine.**
+| Step # | Description | Terminal Command |
+| :--: | ------- | ---- |
+| 01 | Ensure Node, required NPM Packages, and MongoDB are all installed on your local machine |  |
+| 02 | Clone this repo | git clone https://github.com/GrissomErick/NYT-Scrape.git |
+| 03 | Install all required NPM packages | npm i |
+| 04 | Change directory to the cloned repo folder | cd NYT-Scrape |
+| 05 | Start the application server | node server.js |
+| 06 | Navigate web browser to home page  | (Web Browser Address Bar)  localhost:3000 |
 
-**Step 2 - Clone this repo using the command line below.**
-```
-git clone https://github.com/GrissomErick/NYT-Scrape.git
-```
-**Step 3 - Change directory to the cloned repo folder.**
-```
-cd NYT-Scrape
-```
-**Step 4 - Install all required NPM packages.**
-```
-npm i
-```
-**Step 5 - Start the application server using the command line below**
-```
-node server.js
-```
 ## NPM Packages
 NYT-Scrape uses the following NPM packages:
 - express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
