@@ -19,7 +19,7 @@ The link below will give you direct access to NYT-Scrape web application using y
 ## Local Environment Setup
 To use NYT-Scrape web application application from your local environment, you must accomplish the following steps below:
 
-| Step # | Description | Terminal Command |
+| Step | Description | Terminal Command |
 | :--: | ------- | ---- |
 | 01 | Ensure Node, required NPM Packages, and MongoDB are all installed on your local machine |  |
 | 02 | Clone this repo | git clone https://github.com/GrissomErick/NYT-Scrape.git |
