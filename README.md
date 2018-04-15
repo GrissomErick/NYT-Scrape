@@ -1,5 +1,5 @@
 <p align="center">
- <a href="https://github.com/GrissomErick/NYT-Scrape" target="_blank"><img src=https://raw.githubusercontent.com/GrissomErick/NYT-Scrape/master/public/assets/img/NYT_Scrape_Header.png?raw=true" alt="Project logo"/></a>
+<a href="https://uncbc-nytscrape.herokuapp.com/" target="_blank"><img src=https://raw.githubusercontent.com/GrissomErick/NYT-Scrape/master/public/assets/img/NYT_Scrape_Header.png?raw=true" alt="Project logo"/></a>
 </p>
 
 # NYT-Scrape
