@@ -1,7 +1,7 @@
 //==============================================================================
-// My goals for this Homework
+// Goals for this Homework
 // 1. Get the app working 1st
-// 2. Lots of comenting
+// 2. Lots of commenting
 // 3. Organize and streamline code
 // 4. Working brickwall and notepad frontend solutions
 //==============================================================================
