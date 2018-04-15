@@ -1,7 +1,7 @@
 {
   "name": "nyt-scrape",
   "version": "1.0.0",
-  "description": "A web scraping app that uses mongodb for persistent for storage",
+  "description": "A web scraping app that uses mongodb for persistent storage",
   "main": "server.js",
   "author": "Erick Grissom",
   "license": "ISC",
