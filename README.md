@@ -19,17 +19,56 @@ The link below will give you direct access to NYT-Scrape web application using y
 ## Local Environment Setup
 To use NYT-Scrape web application application from your local environment, you must accomplish the following steps below:
 
-| Step | Description | Terminal Command |
-| :--: | ------- | ---- |
-| 01 | Ensure Node, required NPM Packages, and MongoDB are all installed on your local machine |  |
-| 02 | Clone this repo | git clone https://github.com/GrissomErick/NYT-Scrape.git |
-| 03 | Install all required NPM packages | npm i |
-| 04 | Change directory to the cloned repo folder | cd NYT-Scrape |
-| 05 | Start the application server | node server.js |
-
-| Step | Description | Browser Route |
-| :--: | ------- | ---- |
-| 01 | Navigate web browser to the application home page | localhost:3000 |
+<table>
+  <tr>
+    <th colspan="3">Terminal Bash Steps</th>
+  </tr>
+  <tr>
+    <td align="center" style="width: 75px;">Step #</td>
+    <td align="center" style="width: 330px;">Description</td>
+    <td  align="center" >Terminal Bash Command</td>
+  </tr>
+  <tr>
+    <td align="center">01</td>
+    <td colspan="2">Ensure Node, required NPM Packages, and MongoDB are all installed on your local machine</td>
+  </tr>
+  <tr>
+    <td align="center">02</td>
+    <td>Clone this repo</td>
+    <td>git clone https://github.com/GrissomErick/NYT-Scrape.git</td>
+  </tr>
+  <tr>
+    <td align="center">03</td>
+    <td>Install required NPM packages</td>
+    <td>npm i</td>
+  </tr>
+  <tr>
+    <td align="center">04</td>
+    <td>Change directory to the cloned repo folder</td>
+    <td>cd NYT-Scrape</td>
+  </tr>
+  <tr>
+    <td align="center">05</td>
+    <td>Start the application server</td>
+    <td>node server.js</td>
+  </tr>
+  </table>
+  
+  <table>
+  <tr>
+    <th colspan="3">Web Browser Steps</th>
+  </tr>
+  <tr>
+    <td align="center" style="width: 75px;">Step #</td>
+    <td align="center" style="width: 400px;">Description</td>
+    <td align="center" style="width: 200px;">Browser Route</td>
+  </tr>
+  <tr>
+    <td align="center">01</td>
+    <td>Navigate web browser to the application home page</td>
+    <td>localhost:3000</td>
+  </tr>
+  </table>
 
 ## NPM Packages
 NYT-Scrape uses the following NPM packages:
