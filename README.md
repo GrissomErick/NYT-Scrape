@@ -35,7 +35,7 @@ To use NYT-Scrape web application application from your local environment, you m
   <tr>
     <td align="center">02</td>
     <td>Clone this repo</td>
-    <td>git clone `https://github.com/GrissomErick/NYT-Scrape.git`</td>
+    <td>git clone https&#58;//github.com/GrissomErick/NYT-Scrape.git</td>
   </tr>
   <tr>
     <td align="center">03</td>
